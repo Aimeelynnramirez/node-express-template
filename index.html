@@ -8,74 +8,80 @@
 <!-- hbs(handlebars): http://handlebarsjs.com/ -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Welcome to Projects Page!</title>
-    <meta name="description" content="A cool thing made with by art">
-    <!-- <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon"> -->
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
-    <!-- local -->
-    <!-- <link rel="stylesheet" href="file:///C:/Users/Mgkag/Desktop/Aimee/aimeelynnramirez.github.io/style.css"> -->
-
-    <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-    <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
-    <script src="/client.js"></script>
+    <style type="text/css" media="screen">
+      #page { background: url("https://cdn.glitch.com/d6f7f0c0-b2cf-4339-8249-d09d3db2cfa1%2Fkubrickbgwide.jpg") repeat-y top; border: none; }
+    </style>
   </head>
   <body>
-    <header>
-      
-      <h1>
-       My Art
-      </h1> 
-      <img src='https://orig00.deviantart.net/2173/f/2007/165/8/0/moon_by_beyondthesea02.png'>
-    <a href="https://beyondthesea02.deviantart.com/gallery/25413780/Portfolio">  ©beyondthesea02 </a>
-      
-      
-    </header>
+    <div id="page">
 
-    <main>
-      <p class="bold">AimeeLynnRamirez@github.io</p> 
-           
-      <h1>
-       My Projects
-      </h1>    <br>
- <a href="https://aimeelynnramirez.github.io/template-client/">Client Template</a>
-          <br>
-  <a href="https://aimeelynnramirez.github.io/aim_application/">Login Template</a>
-           <br>
-  <a href="https://aimeelynnramirez.herokuapp.com/">React Projects (scroll up and down for links!)</a>
-            <br>
-      <p>Tell me your hopes and dreams:</p>
-      
-      <form>
-        <input name="dream" type="text" maxlength="100" placeholder="Dreams!" aria-labelledby="submit-dream">
-        <button type="submit" id="submit-dream">Submit Dream</button>
-      </form>
-      
-      <section class="dreams">
-        <ul id="dreams"></ul>
-      </section>
-    </main>
 
-    <footer>
-    | Go Back: <a href="https://github.com">Go back</a> |
-            <br>
-     My Github:  <a href="https://aimeelynnramirez.github.io/">Github</a>|
-    </footer>
-    
-    
-    <!-- import the webpage's client-side javascript file -->
-    <script src="./client.js"></script>
+      <div id="header">
+        <div id="headerimg">
+          <h1><a href="https://wordpress.glitch.me">Welcome to Glitch!</a></h1>
+          <div class="description">Just Another Glitch App</div>
+        </div>
+      </div>
+      <hr>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
+        <div id="content" class="narrowcolumn">
+
+            <div class="post" id="post-1">
+              <h2>Hello world!</h2>
+              <small>April 3, 2017</small>
+
+              <div class="entry">
+                <p>Welcome to Glitch. This is your first app. Edit or delete it, then start remixing!</p>
+              </div>
+
+              <p class="postmetadata"> Posted in <a href="https://glitch.com" rel="category">Glitch</a> |
+                <a href="https://glitch.com/edit/#!/wordpress">View Source</a> |
+                <a href="https://glitch.com/edit/#!/remix/wordpress">Remix »</a></p>
+            </div>
+
+        </div>
+
+        <div id="sidebar">
+          <ul>
+          	<li id="recent-posts-3" class="widget widget_recent_entries">
+              <h2 class="widgettitle">Recent Posts</h2>
+              <ul>
+                <li>
+                  <a href="https://medium.com/glitch/how-we-wont-screw-up-glitch-9b46fe153157">How We Won't Screw Up Glitch</a>
+                </li>
+                <li>
+                  <a href="https://medium.com/glitch/glitch-for-your-api-3be38a5798ee">Glitch For Your API</a>
+                </li>
+                <li>
+                  <a href="https://medium.com/glitch/ready-set-glitch-dd8eead777b8">Ready, Set, Glitch!</a>
+                </li>
+                <li>
+                  <a href="https://medium.com/glitch/welcome-to-glitch-fe161d0fc39b">Welcome to Glitch!</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      <hr>
+      <div id="footer">
+        <p>
+          Welcome to Glitch! is proudly powered by
+          <a href="https://glitch.com">Glitch</a>
+          <br><a href="https://wordpress.org/themes/default/">Yes, this is the "default" WordPress theme</a>
+          and <a href="http://jennmoney.biz">yes, Jenn made this</a>.
+          <!-- 21 queries. 0.133 seconds. -->
+        </p>
+      </div>
+    </div>
 
   </body>
 </html>
