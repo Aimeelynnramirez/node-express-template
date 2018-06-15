@@ -8,5 +8,5 @@ Run this: `"./server.sh"`
 
 
 Links towards good resources:
-[React Template for Github](https://aimeelynnramirez.github.io/local-wordpress-hosting/)
-[Express Template for Github](https://aimeelynnramirez.github.io)
+|[React Template for Github](https://aimeelynnramirez.github.io/local-wordpress-hosting/)|
+[Express Template for Github](https://aimeelynnramirez.github.io)|
