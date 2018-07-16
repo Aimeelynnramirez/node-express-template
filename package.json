@@ -1,5 +1,5 @@
 {
-  "name": "aimeelynnramirez.github.io",
+  "name": "node-express-template",
   "version": "1.0.0",
   "description": "",
   "main": "cilent.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aimeelynnramirez/aimeelynnramirez.github.io.git"
+    "url": "git+https://github.com/Aimeelynnramirez/node-express-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aimeelynnramirez/aimeelynnramirez.github.io/issues"
+    "url": "https://github.com/Aimeelynnramirez/node-express-template/issues"
   },
-  "homepage": "https://github.com/Aimeelynnramirez/aimeelynnramirez.github.io#readme",
+  "homepage": "https://github.com/Aimeelynnramirez/node-express-template#readme",
   "dependencies": {
     "express": "^4.16.3"
   }
